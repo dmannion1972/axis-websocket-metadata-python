@@ -1,6 +1,7 @@
 import websocket
 import _thread
 import json
+# this file getsesssionid.py imports the token that is needed for authentication
 from getsesssionid import token
 
 
