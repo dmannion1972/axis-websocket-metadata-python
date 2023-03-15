@@ -7,15 +7,6 @@ from getsesssionid import token
 
 url= "ws://192.168.20.195/vapix/ws-data-stream?wssession="+token+"&sources=events"
 
-def on_message(ws, message):
-    print(message)
-    message_to_send = {
-        "Submit": [{
-            "Type": "turnOff",
-            "Key": ""
-        }]}
-    ws.send(message_to_send)
-
 def on_error(ws, error):
     print(error)
 
