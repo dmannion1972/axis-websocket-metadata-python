@@ -10,4 +10,9 @@ You can use the example from my GitHub files metadata.py and getsesssionid.py.
 
 The getsesssionid.py you need to use to get your websocket session ID.  That token will be used in the metadata.py.  
 
+When you run the metadata.py it will ask for the following information.
+Enter your IP address, example 192.168.0.90
+Username for Axis product
+Enter password of Axis product
+
 You can view the output https://youtu.be/QCEpmpolRKk
