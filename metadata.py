@@ -2,7 +2,7 @@ import websocket
 import _thread
 import json
 # this file getsesssionid.py imports the token that is needed for authentication
-from getsesssionid import token
+from getsesssionid import *
 
 
 url= "ws://192.168.20.195/vapix/ws-data-stream?wssession="+token+"&sources=events"
