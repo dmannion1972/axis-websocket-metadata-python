@@ -9,3 +9,5 @@ Using this will allow you to pull the metadata from an Axis product using a Webs
 You can use the example from my GitHub files metadata.py and getsesssionid.py.
 
 The getsesssionid.py you need to use to get your websocket session ID.  That token will be used in the metadata.py.  
+
+You can view the output https://youtu.be/QCEpmpolRKk
