@@ -3,7 +3,7 @@ import requests
 import json
 from requests.auth import HTTPDigestAuth 
 cam_user = 'root'
-cam_pass = 'adp2013'
+cam_pass = 'pass'
 auth=HTTPDigestAuth(cam_user, cam_pass)
 
 urlsessionid= 'http://192.168.20.195/axis-cgi/wssession.cgi'
