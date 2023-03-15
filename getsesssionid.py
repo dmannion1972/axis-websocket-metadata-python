@@ -20,5 +20,5 @@ urlsessionid= 'http://'+ip_address+'/axis-cgi/wssession.cgi'
 
 response = requests.request("POST", urlsessionid, auth=auth)
 sessionID_responseJsonDict = (response.text)
-print(sessionID_responseJsonDict)
 token = sessionID_responseJsonDict
+
