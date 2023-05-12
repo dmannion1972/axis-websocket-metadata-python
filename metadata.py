@@ -5,7 +5,7 @@ import json
 from getsesssionid import *
 
 
-url= "ws://192.168.20.195/vapix/ws-data-stream?wssession="+token+"&sources=events"
+url= f"ws://{ip_address}/vapix/ws-data-stream?wssession={token}&sources=events"
 
 def on_error(ws, error):
     print(error)
